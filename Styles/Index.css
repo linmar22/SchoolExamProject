@@ -236,13 +236,21 @@ h3 {
 }
 
 #footer_left{
+    width:310px;
 
 }
 
 #footer_center{
-
+    width:310px;
+    text-align: center;
+    text-decoration: underline;
+    cursor:pointer;
+}
+#footer_center:hover{
+    color:white;
 }
 
 #footer_right{
-
+    width:310px;
+    text-align: right;
 }
