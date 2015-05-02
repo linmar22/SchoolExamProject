@@ -1,0 +1,168 @@
+html {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, serif;
+    padding: 0;
+    background-color: lightgray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    overflow-y:scroll ;
+}
+
+head {
+    width: 100px;
+}
+
+#top_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
+    background-color: #410106;
+    color: white;
+    height: 150px;
+    align-items: center;
+}
+
+#logo {
+    padding-left: 30px;
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+
+#title {
+    padding-left: 10px;
+    padding-right: 30px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 30pt;
+    align-self: center;
+}
+
+#title_logo {
+    display: inline-flex;
+}
+
+.navlink {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+.navlink:hover {
+    background-color: #A71D24;
+}
+
+#search_box {
+    margin-right: 30px;
+    color: white;
+    border: none;
+    border-bottom: solid #A71D24 2px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#search_box::-webkit-input-placeholder {
+    color: #A71D24;
+}
+
+#search_box:-moz-placeholder {
+    color: #A71D24;
+}
+
+#breadcrumbs {
+    padding-left: 10px;
+    height: 25px;
+    color: black;
+    line-height: 25px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content_body_container {
+    width: 940px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 20pt;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contacts_body {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+h4 {
+    padding-left:20px;
+    margin-bottom: 10px;
+    font-size: 15pt;
+}
+
+.contacts_campus {
+    padding-left:20px;
+    font-size: 10pt;
+}
+
+.campus_email{
+    text-decoration: underline;
+    color: #A71D24;
+}
+
+.campus_email:hover{
+    color:#410106;
+}
+.campus_email:visited{
+    color:#DA0313;
+}
+
+#contacts_devs {
+    display: flex;
+    width: 100%;
+}
+
+.contacts_dev {
+    padding-left: 20px;
+}
+
+.dev_email{
+    text-decoration: underline;
+    color: #A71D24;
+}
+
+.dev_email:hover{
+    color:#410106;
+}
+.dev_email:visited{
+    color:#DA0313;
+}
+
+.category_divider {
+    color: #410106;
+    margin: 30px auto;
+}
+
+#footer{
+    margin-top: 10px;
+    height:50px;
+    background-color: #410106;
+    display: flex;
+    color:#8E2D34;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 10px;
+    font-size: 10pt;
+}
